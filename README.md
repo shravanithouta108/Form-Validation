@@ -59,4 +59,5 @@ This project is a simple web-based registration form that includes form validati
 
 3. Confirmation/ Print Page.
    <img src="print.jpg" alt="Print form" height="50%" width="80%">
+   
 You can see how the form works dynamically by filling in your details — the fee is shown instantly based on course selection before submission.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <h3>Form Validation </h3>
+  </header>
+
+  <div class="container">
+  <pre>
+  <form action="" name="f1">
+    
+    Htno: <input type="text" maxlength="12" name="t1">
+    
+    Name: <input type="text" name="t2">
+    
+    Courses: <select name="s" id="c">
+ <option value="0">Select Any Course</option>
+ <option value="bsc">BSc</option>
+ <option value="bcom">BCom</option>
+ <option value="bba">BBA</option>
+ <option value="bca">BCA</option>
+ </select>
+ 
+    Amount: <input type="text" name="t3" disabled><p> *Click on Submit button </p>
+    
+    
+<div id="btn" align="left">
+  
+  <input id="btn1" type="button" value="Submit" onclick="val()">
+  
+  <input id="btn2" type="reset" value="Clear"> 
+  
+  <input id="btn3" type="button" value="Amount" disabled onclick="rep()">
+  
+</div>
+
+
+  </form>
+  </div>
+    </pre>
+
+  <script src="main.js"></script>
+</body>
+</html>
